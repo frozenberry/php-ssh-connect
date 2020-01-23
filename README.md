@@ -5,7 +5,7 @@ Devices can be added and deleted from the front end page.
 
 # configuring the mysql database
 1. Create a database named dev
-2. Create three columns in the db as
+2. Create a table named host and then create three columns in the host table as
     id INT UNIQUE AUTO INCRIMENT,
     name VARCHAR,
     ip VARCHAR
