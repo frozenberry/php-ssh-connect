@@ -5,9 +5,9 @@ Devices can be added and deleted from the front end page.
 
 # configuring the mysql database
 1. Create a database named dev
-2. Create three columns in the db as follows :-
-    id INT UNIQUE AUTO INCRIMENT
-    name VARCHAR
+2. Create three columns in the db as
+    id INT UNIQUE AUTO INCRIMENT,
+    name VARCHAR,
     ip VARCHAR
 
 # installation
