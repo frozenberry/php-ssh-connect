@@ -1,17 +1,13 @@
-# ssh-network-up-monitor-using-php-and-mysql
-The script uses ssh to check if a device is up or down.
-Easy to use.
-Devices can be added and deleted from the front end page.
+# PHP SSH CONNECT
+Connects to network devices via ssh
 
-# how it works
-It uses a mysql db to fetch the host name and ip address. Then it tries connecting to the host using ssh. If it connects it shows that the host is up and if not then the host is down.
+# Requirements
+PHP version 5.3+ and mysql version 5.x or 5.x+
 
-# configuring the mysql database
-1. Create a database named dev
-2. Create a table named host and then create three columns in the host table as
-    id INT UNIQUE AUTO INCRIMENT,
-    name VARCHAR,
-    ip VARCHAR
+# Installation
+First create a database named dev with a table named host and three columns namely id INT UNIQUE AUTO INCRIMENT, name VARCHAR, ip VARCHAR to store the host name and ip. Then, cooy the index.php file to your server and it should start working.
 
-# installation
-Upload the index.php file in your server and make sure that the db config in the php file is correct. That's it folks !!
+# Usage
+# Configure the devices
+Click on the ADD DEVICE option from the navbar then add the host name and ip.
+The devices should show up with the correct status.
